@@ -296,23 +296,23 @@ def chooser(n=1, l=0, m=0, x=0, y=0, z=0):
                 return R5f(x, y, z)*fzx2y2(x, y, z), '$5f_{z(x^2-y^2)}$'
         elif l == 4:
             if m == 0:
-                return R5g(x, y, z)*gz4(x, y, z), '$5f_{z^4}$'
+                return R5g(x, y, z)*gz4(x, y, z), '$5g_{z^4}$'
             elif m == 1:
-                return R5g(x, y, z)*gz3x(x, y, z), '$5f_{z^3x}$'
+                return R5g(x, y, z)*gz3x(x, y, z), '$5g_{z^3x}$'
             elif m == -1:
-                return R5g(x, y, z)*gz3y(x, y, z), '$5f_{z^3y}$'
+                return R5g(x, y, z)*gz3y(x, y, z), '$5g_{z^3y}$'
             elif m == 2:
-                return R5g(x, y, z)*gz2xy(x, y, z), '$5f_{z^2xy}$'
+                return R5g(x, y, z)*gz2xy(x, y, z), '$5g_{z^2xy}$'
             elif m == -2:
-                return R5g(x, y, z)*gz2x2y2(x, y, z), '$5f_{z^2(x^2-y^2)}$'
+                return R5g(x, y, z)*gz2x2y2(x, y, z), '$5g_{z^2(x^2-y^2)}$'
             elif m == 3:
-                return R5g(x, y, z)*gzx3(x, y, z), '$5f_{zx^3}$'
+                return R5g(x, y, z)*gzx3(x, y, z), '$5g_{zx^3}$'
             elif m == -3:
-                return R5g(x, y, z)*gzy3(x, y, z), '$5f_{zy^3}$'
+                return R5g(x, y, z)*gzy3(x, y, z), '$5g_{zy^3}$'
             elif m == 4:
-                return R5g(x, y, z)*gxyx2y2(x, y, z), '$5f_{xy(x^2-y^2)}$'
+                return R5g(x, y, z)*gxyx2y2(x, y, z), '$5g_{xy(x^2-y^2)}$'
             else:
-                return R5g(x, y, z)*gx4y4(x, y, z), '$5f_{x^4+y^4}$'
+                return R5g(x, y, z)*gx4y4(x, y, z), '$5g_{x^4+y^4}$'
 
 
 class Ui_Form(object):
